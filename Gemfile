@@ -1,8 +1,4 @@
-source "http://rubygems.org"
+source :rubygems
 
-gemspec
-
-group :test do
-  gem 'rspec'
-  gem 'cucumber'
-end
+gem 'rspec', '~> 2.11.0'
+gem 'cucumber'
